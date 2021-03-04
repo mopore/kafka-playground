@@ -9,7 +9,8 @@
     "strictBindCallApply":true,
     "moduleResolution": "node",
     "esModuleInterop": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true // There is an error in the Kafka-note library which would lead to a conflict.
   },
   "include": [
       "./src/**/*"
